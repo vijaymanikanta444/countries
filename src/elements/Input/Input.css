@@ -1,0 +1,10 @@
+.input {
+  height: 20px;
+  padding: 0px 10px;
+  border: 1px solid #c5ced6;
+  color: #c5ced6;
+}
+
+.input:focus {
+  border: 1px solid #c5ced6;
+}

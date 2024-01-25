@@ -1,0 +1,22 @@
+.btn {
+  padding: 10px 20px;
+  background-color: #6558f5;
+  width: fit-content;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #6558f5;
+}
+
+.btn:hover {
+  background-color: #8277f5;
+}
+
+.link:hover {
+  color: #8277f5;
+}

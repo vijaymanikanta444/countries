@@ -1,0 +1,20 @@
+.countries-component-container {
+  height: 100vh;
+
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filter-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-section-left {
+  display: flex;
+  gap: 20px;
+}
