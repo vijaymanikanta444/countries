@@ -38,7 +38,6 @@ const CountriesComponents = () => {
     axios
       .get(apiUrl)
       .then((response) => {
-        // Handle successful response
         const updatedList = response.data.map((item) => ({
           code: item.abbreviation,
           capital: item.capital,
@@ -51,7 +50,6 @@ const CountriesComponents = () => {
         setData(updatedList);
       })
       .catch((error) => {
-        // Handle error
         console.error("Error fetching data:", error);
       });
   };
